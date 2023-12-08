@@ -71,14 +71,43 @@ This repository is a structured collection of machine learning types, methods, a
 - **Feature Selection**
 - **Feature Scaling**
 
-## Foundational Domains in Machine Learning
+## Foundational Domains Across Time and History
+- **Agriculture:** Central to civilization, focusing on crop cultivation and livestock farming.
+[Dataset on Agricultural Crop Production](https://www.kaggle.com/unitednations/global-food-agriculture-statistics)
 
-- **Healthcare**: Disease prediction, medical imaging.
-- **Finance**: Fraud detection, algorithmic trading.
-- **Manufacturing**: Quality control, predictive maintenance.
-- **Retail**: Recommendation systems, customer segmentation.
-- **Transportation**: Autonomous vehicles, route optimization.
+- **Industry and Manufacturing:** Involves the production and manufacturing of goods, from manual craftsmanship to automation.
+[Manufacturing Process Failures Dataset](https://www.kaggle.com/shwetabh123/mall-customers)
 
+- **Trade and Commerce:** Encompasses the exchange of goods and services and has been crucial for economic development.
+[E-commerce Sales Forecast Dataset](https://www.kaggle.com/carrie1/ecommerce-data)
+
+- **Science and Technology:** The pursuit of knowledge and its application; from natural phenomena exploration to technological innovation.
+[Science Journal Articles Dataset](https://www.kaggle.com/Cornell-University/arxiv)
+
+- **Arts and Culture:** Includes literature, music, visual and performing arts, reflecting human creativity and cultural heritage.
+[Art Images: Drawing/Painting/Sculptures/Engravings](https://www.kaggle.com/ikarus777/best-artworks-of-all-time)
+
+- **Education and Scholarship:** Systems for knowledge and skill transmission, shaping societies through learning and academic inquiry.
+[University Rankings Dataset](https://www.kaggle.com/mylesoneill/world-university-rankings)
+
+- **Governance and Law:** Organizing and managing societies through government structures, legal systems, and political processes.
+[European Union Laws Dataset](https://www.kaggle.com/danofer/eu-laws)
+
+- **Healthcare and Medicine:** Focuses on health maintenance, disease treatment, and medical advancements.
+[Healthcare Dataset: Stroke Prediction](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset)
+
+- **Religion and Spirituality:** Addresses human beliefs and practices regarding the sacred, divine, and moral values.
+[Religion and State Project Dataset](https://www.thearda.com/Archive/Files/Descriptions/RAS3DESC.asp)
+
+- **Exploration and Discovery:** Human efforts in geographical, astronomical, and scientific exploration.
+[Space Missions Dataset](https://www.kaggle.com/agirlcoding/all-space-missions-from-1957)
+
+- **Philosophy and Ethics:** The study of existential, metaphysical, and moral principles guiding human life.
+[Philosophical Works Dataset](https://www.kaggle.com/kouroshalizadeh/philosophical-texts)
+
+- **Military and Defense:** Organized methods for national defense and engagement in warfare.
+[Global Terrorism Database](https://www.kaggle.com/START-UMD/gtd)
+
+- **Communication and Information:** Development of methods for information sharing and management.
+[News Category Dataset](https://www.kaggle.com/rmisra/news-category-dataset)https://www.kaggle.com/rmisra/news-category-dataset
 ---
-
-This repository is continuously updated to include the latest developments and research in the field of machine learning.
