@@ -110,4 +110,6 @@ This repository is a structured collection of machine learning types, methods, a
 
 - **Communication and Information:** Development of methods for information sharing and management.
 [News Category Dataset](https://www.kaggle.com/rmisra/news-category-dataset)https://www.kaggle.com/rmisra/news-category-dataset
+
+- **Transportation:** Encompasses the development, management, and innovation in systems for moving people and goods from one place to another. [Global Airline Routes and Traffic Data](https://www.kaggle.com/shubhendumishra/airline-routes-and-traffic-data)
 ---

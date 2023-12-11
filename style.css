@@ -1,0 +1,8 @@
+/* Add styles for the body, h1, hr, select elements, etc. */
+select {
+    /* Style for drop-down lists */
+}
+
+#notebookContent {
+    /* Style to make it look like Jupyter Notebook */
+}
