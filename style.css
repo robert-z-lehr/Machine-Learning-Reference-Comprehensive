@@ -1,8 +1,81 @@
-/* Add styles for the body, h1, hr, select elements, etc. */
+body {
+    text-align: center; /* Centers all content */
+    font-family: Arial, sans-serif; /* Example font */
+}
+
+.title-container h1 {
+    font-size: 2.5em; /* Larger font size for the title */
+    margin: 0.5em 0; /* Adjust spacing around the title */
+}
+
+.section-container {
+    text-align: left; /* Align content to the left */
+    margin-left: 20px; /* Adjust as needed for spacing from the left edge */
+    /* Add other styles as needed */
+}
+
+hr {
+    margin-top: 30px; /* Spacing above the horizontal line */
+    margin-bottom: 30px; /* Space below the horizontal line */
+}
+
+.dropdown-container {
+    margin: 30px 0; /* Space around the dropdowns */
+    display: flex;
+    justify-content: center; /* Centers dropdowns horizontally */
+    gap: 100px; /* Spacing between dropdowns */
+}
+
+.dropdown-group {
+    text-align: left; /* Aligns title and dropdown */
+}
+
+.dropdown-title {
+    font-weight: bold;
+    margin-bottom: 5px; /* Spacing between title and dropdown */
+}
+
 select {
-    /* Style for drop-down lists */
+    padding: 10px; /* Larger, more clickable dropdowns */
+    font-size: 1.1em; /* Larger font size for easier reading */
+    cursor: pointer; /* Indicates the element is interactive */
+}
+
+.project-name-box {
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc; /* Example border */
+    border-radius: 5px;
+    font-size: 1.2em; /* Larger font size for visibility */
 }
 
 #notebookContent {
-    /* Style to make it look like Jupyter Notebook */
+    background-color: #f5f5f5; /* Light grey background similar to Jupyter */
+    font-family: 'Courier New', monospace; /* Monospace font for code-like appearance */
+    padding: 20px;
+    margin: 30px auto; /* Center the notebook content */
+    width: 80%; /* Adjust as per your layout */
+    border: 1px solid #ddd; /* Light border for the container */
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15); /* Subtle shadow for depth */
+}
+
+.notebook-cell {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.notebook-code {
+    color: #d14; /* Dark red color for code */
+}
+
+.notebook-output {
+    color: #00f; /* Blue color for output */
+    border-top: 1px solid #eee; /* Separator between code and output */
+    margin-top: 10px;
+    padding-top: 10px;
 }

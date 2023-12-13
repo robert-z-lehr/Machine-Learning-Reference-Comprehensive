@@ -2,29 +2,75 @@
 <html>
 <head>
     <title>Machine Learning Examples & Reference</title>
-    <!-- Add CSS and JavaScript links here -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    <h1>Machine Learning Examples & Reference</h1>
+    <div class="title-container">
+        <h1>Machine Learning Examples<br>& Reference</h1>
+    </div>
     <hr> <!-- Horizontal dividing line -->
-    <div>
-        <!-- Drop-down lists -->
-        <select id="mlCategories" onchange="updateContent()">
-            <!-- Options for Machine Learning Categories -->
-            <option value="keyTerms">Key Terms & Analogies</option>
-            <option value="deepLearning">Deep Learning</option>
-            <!-- Add more options here -->
-        </select>
+    <div class="dropdown-container">
+        <div class="dropdown-group">
+            <div class="dropdown-title"><strong>Machine Learning Categories</strong></div>
+            <select id="mlCategories" onchange="updateContent()">
+                <!-- Options for Machine Learning Categories -->
+                <option value="Empty Category"></option>
+                <option value="supervisedLearning">Supervised Learning</option>
+                <option value="unsupervisedLearning">Unsupervised Learning</option>
+                <option value="semi-supervisedLearning">Semi-Supervised Learning</option>
+                <option value="reinforcementLearning">Reinforcement Learning</option>
+                <option value="deepLearning">Deep Learning</option>
+                <!-- Add more options here -->
+            </select>
+        </div>
+        
+        <div class="dropdown-group">
+            <div class="dropdown-title"><strong>Topics/Domains</strong></div>
+            <select id="topicsFields" onchange="updateContent()">
+                <!-- Options for Topic/Fields -->
+                <option value="Empty Topic/Field"></option>
+                <option value="Healthcare & Medicine">Healthcare</option>
+                <option value="Education & Scholarship">Education & Scholarship</option>
+                <option value="Agriculture & Farming">Agrictulre & Farming</option>
+                <option value="Industry & Manufacturing">Industry & Manufacturing</option>
+                <option value="Trade & Commerce">Trade & Commerce</option>
+                <option value="Science & Technology">Science & Technology</option>
+                <option value="Arts & Culture">Arts & Culture</option>
+                <option value="Governance & Law">Governance & Law</option>
+                <option value="Religion & Spirituality">Religion & Spirituality</option>
+                <option value="Exploration & Discovery">Exploration & Discovery</option>
+                <option value="Philosophy & Ethics">Philosophy & Ethics</option>
+                <option value="Military & Defense">Military & Defense</option>
+                <option value="Communication & Information">Communication & Information</option>
+                <option value="Entrepreneurism & Innovation">Entreprenuerism & Innovation</option>
+                <option value="Transportation & Mobility">Transportation & Mobility</option>
+                <option value="Cybersecurity & Fraud">Cybersecurity & Fraud</option>
+                <option value="Entertainment & Media">Cybersecurity & Fraud</option>
 
-        <select id="topicsFields" onchange="updateContent()">
-            <!-- Options for Topic/Fields -->
-            <option value="healthcare">Healthcare</option>
-            <option value="higherEdu">Higher Edu</option>
-            <!-- Add more options here -->
-        </select>
+                <!-- Add more options here -->
+            </select>
+        </div>
+    </div>
+    <hr> <!-- Horizontal dividing line -->
+    <div class="section-container">
+        <h3>Key Terms & Concepts:</h3>
+    <hr> <!-- Horizontal dividing line -->
+    <!-- Dynamic Project Name box -->
+    <div class="project-name-box">
+        <span id="projectName">Project Name</span>
     </div>
     <div id="notebookContent">
-        <!-- Jupyter Notebook style content goes here -->
+        <div class="notebook-cell">
+            <p class="notebook-code">
+                # Example code<br>
+                print("Hello, World!")
+            </p>
+            <p class="notebook-output">
+                Hello, World!
+            </p>
+        </div>
+        <!-- Add more cells as needed -->
     </div>
 </body>
 </html>
