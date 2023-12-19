@@ -15,7 +15,7 @@
             <div class="dropdown-title"><strong>Machine Learning Categories</strong></div>
             <select id="mlCategories" onchange="updateContent()">
                 <!-- Options for Machine Learning Categories -->
-                <option value="Empty Category"></option>
+                <option value="Choose Machine Learning Category">Choose a Category</option>
                 <option value="supervisedLearning">Supervised Learning</option>
                 <option value="unsupervisedLearning">Unsupervised Learning</option>
                 <option value="semi-supervisedLearning">Semi-Supervised Learning</option>
@@ -29,10 +29,10 @@
             <div class="dropdown-title"><strong>Topics/Domains</strong></div>
             <select id="topicsFields" onchange="updateContent()">
                 <!-- Options for Topic/Fields -->
-                <option value="Empty Topic/Field"></option>
+                <option value="Choose Topic/Field">Choose a Topic/Field</option>
                 <option value="Healthcare & Medicine">Healthcare</option>
                 <option value="Education & Scholarship">Education & Scholarship</option>
-                <option value="Agriculture & Farming">Agrictulre & Farming</option>
+                <option value="Agriculture & Farming">Agriculture & Farming</option>
                 <option value="Industry & Manufacturing">Industry & Manufacturing</option>
                 <option value="Trade & Commerce">Trade & Commerce</option>
                 <option value="Science & Technology">Science & Technology</option>
@@ -47,10 +47,38 @@
                 <option value="Transportation & Mobility">Transportation & Mobility</option>
                 <option value="Cybersecurity & Fraud">Cybersecurity & Fraud</option>
                 <option value="Entertainment & Media">Cybersecurity & Fraud</option>
-
                 <!-- Add more options here -->
             </select>
         </div>
+
+        <div class="dropdown-group">
+            <div class="dropdown-title"><strong>Database Management Systems</strong></div>
+            <select id="dbms" onchange="updateContent()">
+                <!-- Options for Machine Learning Categories -->
+                <option value="Choose DBMS">Choose a DBMS</option>
+                <option value="PSQL">PSQL (RDMBS)</option>
+                <option value="MySQL">MySQL (RDBMS)</option>
+                <option value="Oracle">Oracle (RDBMS)</option>
+                <option value="SQLite">SQLite (RDBMS)</option>
+                <option value="MongoDB">MongoDB (NoSQL DBMS)</option>
+                <!-- Add more options here -->
+            </select>
+        </div>
+
+        <div class="dropdown-group">
+            <div class="dropdown-title"><strong>Languages</strong></div>
+            <select id="languages" onchange="updateContent()">
+                <!-- Options for Machine Learning Categories -->
+                <option value="Choose Language">Choose a Language</option>
+                <option value="Python">Python</option>
+                <option value="C++">C++</option>
+                <option value="javascript">Javascript</option>
+                <option value="R">R</option>
+                <option value="C">C</option>
+                <!-- Add more options here -->
+            </select>
+        </div>
+
     </div>
     <hr> <!-- Horizontal dividing line -->
     <div class="section-container">
