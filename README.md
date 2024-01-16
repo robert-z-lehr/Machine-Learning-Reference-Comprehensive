@@ -1,5 +1,5 @@
 # Machine-Learning-Reference-Comprehensive
-Reference Repository - This repository contains examples and definitions of all machine learning problem-types and terms, respectively.
+Reference Repository - This repository contains examples and definitions of all machine learning problem-types and terms, respectively. The following example is inspired by an example in the Coursera course [ Supervised Learning: Classification & Regression course](https://www.coursera.org/learn/supervised-machine-learning-classification?utm_medium=sem&utm_source=gg&utm_campaign=B2C_NAMER_ibm-machine-learning_ibm_FTCOF_professional-certificates_country-US-country-CA&campaignid=20524101542&adgroupid=154039028340&device=c&keyword=&matchtype=&network=g&devicemodel=&adposition=&creativeid=673073309201&hide_mobile_promo&gclid=CjwKCAiA75itBhA6EiwAkho9e6Mke3ha3noTKejTSwC_X1GugjFvBfexLP155uR1tCzB9QH8TTIbOxoCEz0QAvD_BwE)
 [Explore Machine Learning Examples](https://robert-z-lehr.github.io/Machine-Learning-Reference-Comprehensive/)
 ---
 If you think anything is missing, have suggestions, or questions, please provide them in this GitHub account [Feedback Form](https://robert-z-lehr.github.io/Feedback/).
